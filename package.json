@@ -1,0 +1,19 @@
+{
+  "name": "jquery_opdracht",
+  "version": "1.0.0",
+  "description": "Training met jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jQuery",
+    "kennismaken",
+    "fro"
+  ],
+  "author": "Damien Hensen",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
