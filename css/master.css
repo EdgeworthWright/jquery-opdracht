@@ -5,6 +5,8 @@ html, body {
 
 h1 {
   text-align: center;
+  position: relative;
+  cursor: pointer;
 }
 
 main {
@@ -38,4 +40,5 @@ footer {
   text-align: center;
   color: white;
   padding-bottom: .5em;
+  cursor: pointer;
 }

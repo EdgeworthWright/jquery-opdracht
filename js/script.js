@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+  $("h1").click(function() {
+    $(this).animate({
+      top: "-20px"
+    }, 500).animate({
+      top: "60px"}, 500).animate({
+        top: "0"}, 500).animate({
+          top: "40px"}, 500).animate({
+            top: "0"}, 1400);
+  });
+
   // Section hide/show image and text
   $('section img').mouseenter(function() {
     $(this).fadeTo(700, 0);
@@ -20,4 +31,5 @@ $(document).ready(function() {
       opacity: '1'
     }, 200);
   });
+
 });
