@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  
+
   $("h1").click(function() {
     $(this).animate({
       top: "-20px"
